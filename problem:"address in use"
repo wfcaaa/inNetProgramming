@@ -1,0 +1,3 @@
+before bind, you can set:
+int enable =1;
+setsockopt(fd,SOL_SOCKET,SO_REUSEADDR,&enable,size(int));
